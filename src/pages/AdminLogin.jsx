@@ -47,7 +47,7 @@ import '../App.css';
 import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
 
-const API_URL = process.env.REACT_APP_API_URL;
+//const API_URL = process.env.REACT_APP_API_URL;
 
 const Login = () => {
   const [email, setEmail] = useState('');
